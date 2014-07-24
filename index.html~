@@ -17,7 +17,6 @@
 	<form action="funkcia()" method="post">
 		Email<input name="mail" type="textfield"/>
 		<input  type="submit"/>
-		<meta http-equiv="refresh" content="0; url=/thanks.html">
 	</form>
 
 
