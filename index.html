@@ -2,13 +2,21 @@
 
 <head>
 	<title>Landing page</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--	<script type="text/javascript>
+
+		$('#form').ajaxForm(function() {
+			$.post('https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE/formResponse', mail);
+			window.location.href='/thanks.html';
+		});
+
+	</script> -->
 </head>
 
 <body>
-	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE/formResponse" method="post">
-		
-		Email<input type="textfield"/>
-		<input type="submit"/>
+	<form action="funkcia()" method="post">
+		Email<input name="mail" type="textfield"/>
+		<input  type="submit"/>
 		<meta http-equiv="refresh" content="0; url=/thanks.html">
 	</form>
 
