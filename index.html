@@ -11,10 +11,20 @@
 		});
 
 	</script> -->
+
+	<script type="text/javascript>
+		function send_goal() {
+			ga('send', 'event', 'email', 'send');		
+		}
+
+
+	</script>
+
+
 </head>
 
 <body>
-	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE/formResponse" method="POST">
+	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE/formResponse" onSubmit="send_goal()" method="POST">
 		Email<input name="entry.1094227986" type="textfield"/>
 		<input  type="submit"/>
 	</form>
