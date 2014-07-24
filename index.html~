@@ -1,1 +1,15 @@
-Hello world
+<html>
+
+<head>
+	<title>Landing page</title>
+</head>
+
+<body>
+	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE" method="post">
+		Email<input type="textfield"></input>
+		<input type="submit"></input>
+	</form>
+
+</body>
+
+</html>
