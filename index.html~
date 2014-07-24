@@ -2,6 +2,7 @@
 
 <head>
 	<title>Landing page</title>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE" method="post" onSubmit="/thanks.html'">
+	<form action="https://docs.google.com/forms/d/1yf_K-7-PDuvod1xkel1ch03QzAalO160GdHiAKEICgE/formResponse" method="post" onSubmit="/thanks.html'">
 		Email<input type="textfield"></input>
 		<input type="submit"></input>
 	</form>
